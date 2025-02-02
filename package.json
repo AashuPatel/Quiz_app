@@ -6,6 +6,7 @@
     "axios": "^1.7.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -15,11 +16,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "proxy": "https://api.jsonserve.com",
   "homepage": "https://AashuPatel.github.io/Quiz_app",
-
   "eslintConfig": {
     "extends": [
       "react-app",
