@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Quiz App with Gamification</h1>
+        <h1>Quiz App by Testline</h1>
       </header>
       <main>
         {quizCompleted ? (

@@ -16,7 +16,7 @@ function Quiz({ onComplete }) {
   useEffect(() => {
     const fetchQuizData = async () => {
       try {
-        const response = await axios.get('https://api.jsonserve.com/Uw5CrX');
+        const response = await axios.get('/Uw5CrX');
         const data = response.data;
         setQuizMeta(data);
         setQuizQuestions(data.questions);

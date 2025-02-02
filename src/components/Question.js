@@ -15,7 +15,7 @@ function Question({ questionData, onAnswer }) {
     const selectedOption = questionData.options[selectedAnswer];
     const isCorrect = selectedOption.is_correct;
 
-    setFeedback(isCorrect ? 'Correct! Well done.' : 'Incorrect answer.');
+    // setFeedback(isCorrect ? 'Correct! Well done.' : 'Incorrect answer.');
     onAnswer(selectedAnswer);
   };
 
